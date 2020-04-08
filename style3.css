@@ -1,0 +1,41 @@
+.borde-bajo {
+
+}
+.capital { 
+    font-size: 50px; 
+    color: blue;
+}
+.cundinamarca { 
+    font-size: 20px;
+}
+.pueblo {
+    color: coral;
+}
+#caqueza {
+border-color: crimson;
+border-width;: 3px
+}
+#choachi {
+    border-color: aqua;
+    border-width;: 3px
+}
+#manizales {
+    border-width: 8px;
+    border-color: rgb(62, 238, 129);
+}
+#medellin {
+    border-color: rgb(195, 0, 255);
+    border-width;: 8px
+}
+#bogota { 
+    border-color: gold;
+    border-width;: 3px
+}
+@font-face {
+    font-family:"BlackHold";
+    src: url("BlackHold.ttf");
+}
+.fuente {
+    font-family: "blackHold";
+    font-size: 16px;
+}

@@ -1,0 +1,110 @@
+    h1,
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+    }
+    
+    li,
+    p,
+    a,
+    ul {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    
+    .pagina {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .container {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-flow: row, wrap;
+        border: 1px solid black;
+        background-color: rgba(92, 90, 98, 0.4);
+    }
+    
+    .objetos {
+        width: 100%;
+        height: 1000px;
+        float: left;
+    }
+    
+    .mitad {
+        width: 80%;
+        height: 100%;
+        float: left;
+    }
+    
+    .menu {
+        float: right;
+        width: 20%;
+        height: 1000px;
+        line-height: 150px;
+        background-color: rgba(92, 90, 98, 0.3);
+    }
+    
+    .info {
+        float: left;
+        width: 100%;
+        height: 30%;
+    }
+    
+    .item {
+        float: left;
+        width: 49%;
+        height: 300px;
+        font-size: inherit;
+        border: 1px solid black;
+        overflow: scroll;
+        background-color: rgba(92, 90, 98, 0.2);
+    }
+}
+.contenido {
+    float: left;
+    width: 99%;
+    height: 700px;
+    border: 1px solid black;
+}
+.contacto {
+    width: 100%;
+    height: 10%;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(92, 90, 98, 0.5);
+}
+.column {
+    float: left;
+    width: inherit;
+    height: inherit;
+    font-size: inherit;
+    border: 1px solid black;
+    overflow: inherit;
+}
+.abajo {
+    align-content: center;
+    width: inherit;
+    height: inherit;
+    font-size: inherit;
+    border: 1px solid black;
+}
+.derecho {
+    float: left;
+    width: 100%;
+    height: 100%;
+    font-size: inherit;
+    border: 1px solid black;
+}
+.lorem {
+    float: left;
+    width: 98%;
+    height: 700px;
+    font-size: inherit;
+    border: 1px solid black;
+    overflow: scroll;
+    background-color: rgba(92, 90, 98, 0.1);

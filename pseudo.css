@@ -1,0 +1,58 @@
+ h1 {
+     font-size: 50px;
+ }
+ 
+ li {
+     font-size: 30px;
+ }
+ 
+ p {
+     font-size: 20px;
+ }
+ 
+ .sub {
+     background-color: grey
+ }
+ 
+ li:not(.sub) {
+     background-color: rgba(130, 131, 130, 0.103);
+ }
+ 
+ li:hover {
+     background-color: rgb(214, 103, 12);
+ }
+ 
+ li:active {
+     background-color: rgb(16, 182, 11);
+ }
+ 
+ ul :nth-child(5) {
+     color: rgb(5, 1, 231);
+ }
+ 
+ input[type="checkbox"]:checked {
+     box-shadow: 0 0 0 3px red;
+ }
+ 
+ input:checked+label {
+     color: red;
+ }
+ 
+ q::before {
+     content: "«";
+     color: red;
+     font-size: 45px;
+ }
+ 
+ q::after {
+     content: "»";
+     color: red;
+     font-size: 45px;
+ }
+ 
+ .italic::after {
+     content: "(...Lorem Ipsum 1530- 1610)";
+     font-style: italic;
+     color: grey;
+     font-size: 15px;
+ }

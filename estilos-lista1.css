@@ -1,0 +1,47 @@
+h1 {
+    font-size: 50px;
+}
+
+li {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li[data-location*="asia"] {
+    background-color: rgba(46, 44, 44, 0.4);
+}
+
+li[data-location*="europa"] {
+    background-color: rgba(234, 79, 144, 0.4);
+}
+
+li[data-location*="america"] {
+    background-color: rgba(42, 102, 144, 0.4);
+}
+
+li[data-location*="francia"] {
+    color: brown;
+}
+
+li[data-location*="alemania"] {
+    color: yellow;
+}
+
+li[data-location*="usa"] {
+    color: blueviolet;
+}
+
+li[data-location*="suecia"] {
+    color: purple;
+}
+
+li[data-location*="japon"] {
+    color: green;
+}
+
+li[data-location*="corea"] {
+    color: red;
+}

@@ -1,0 +1,18 @@
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+li,
+p,
+a,
+ul,
+q {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+aside {
+    display: block;
+}
